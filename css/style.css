@@ -162,3 +162,16 @@ body::after {
     background-color: var(--color-green);
     border-radius: 6px;
 }
+
+@media screen and (max-width: 678px) {
+    .box {
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 290px) {
+    .box {
+        width: 250px;
+        height: 250px;
+    }
+}
