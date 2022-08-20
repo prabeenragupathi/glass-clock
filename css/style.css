@@ -128,7 +128,7 @@ body::after {
 }
 
 .hr,
-.min,
+.mn,
 .sc {
     display: flex;
     justify-content: center;
@@ -144,7 +144,7 @@ body::after {
     background-color: var(--color-pink);
     border-radius: 6px;
 }
-.min::before {
+.mn::before {
     content: "";
     position: absolute;
     width: 4px;
